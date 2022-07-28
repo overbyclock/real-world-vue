@@ -13,7 +13,4 @@ export default {
   getEvents() {
     return Apiclient.get("/events");
   },
-  getEventID(id) {
-    return Apiclient.get("/events/" + id);
-  },
 };

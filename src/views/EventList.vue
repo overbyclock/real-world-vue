@@ -26,7 +26,7 @@ export default {
         this.events = response.data;
       })
       .catch((error) => {
-        console.log(["List: ", error]);
+        console.log(error);
       });
   },
 };
